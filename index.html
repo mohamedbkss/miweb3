@@ -1,63 +1,66 @@
 <!DOCTYPE html>
 <html lang="es">
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Creatividad Digital y Diseño Visual</title>
-    <link rel="stylesheet" href="css/styles.css">
-    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;700&family=Playfair+Display:wght@700&display=swap" rel="stylesheet">
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Diseño UX - Web Creativa</title>
+  <link rel="stylesheet" href="css/styles.css" />
+  <link href="https://fonts.googleapis.com/css2?family=Outfit:wght@400;700&family=Playfair+Display:wght@600&display=swap" rel="stylesheet">
 </head>
 <body>
-    <header>
-        <h1>Creatividad Digital y Diseño Visual</h1>
-        <nav>
-            <ul>
-                <li><a href="#ux">UX</a></li>
-                <li><a href="#beneficios">Beneficios</a></li>
-                <li><a href="#galeria">Galería</a></li>
-                <li><a href="#testimonios">Testimonios</a></li>
-                <li><a href="#contacto">Contacto</a></li>
-            </ul>
-        </nav>
-        <button id="modo">Modo Claro/Oscuro</button>
-    </header>
+  <div class="container">
+    <nav>
+      <h1 class="logo">UXMagic</h1>
+      <ul>
+        <li><a href="#intro">Inicio</a></li>
+        <li><a href="#concept">¿Qué es UX?</a></li>
+        <li><a href="#benefits">Beneficios</a></li>
+        <li><a href="#gallery">Galería</a></li>
+        <li><a href="#contact">Contacto</a></li>
+      </ul>
+      <button id="darkToggle">🌓</button>
+    </nav>
 
-    <section id="ux">
-        <h2>Diseño UX</h2>
-        <p>El diseño UX mejora la experiencia del usuario y la interacción con el producto digital.</p>
+    <section id="intro" class="hero-section">
+      <h2>Bienvenido al mundo del diseño UX</h2>
+      <p>Crea experiencias inolvidables con diseño, emoción y tecnología.</p>
+      <a href="#concept" class="btn scroll-btn">Explorar</a>
     </section>
 
-    <section id="beneficios">
-        <h2>Beneficios</h2>
-        <p>La creatividad digital impulsa la innovación, permite soluciones visuales impactantes y mejora la comunicación.</p>
+    <section id="concept" class="fade-in">
+      <h2>¿Qué es UX?</h2>
+      <p>UX (User Experience) es el arte de diseñar experiencias digitales centradas en las personas. No solo se trata de verse bien, sino de sentirse bien al usarlo.</p>
     </section>
 
-    <section id="galeria">
-        <h2>Galería</h2>
-        <div class="slider">
-            <img src="https://picsum.photos/800/400?random=1" alt="Imagen 1">
-            <img src="https://picsum.photos/800/400?random=2" alt="Imagen 2">
-            <img src="https://picsum.photos/800/400?random=3" alt="Imagen 3">
-        </div>
+    <section id="benefits" class="fade-in">
+      <h2>Beneficios del UX bien diseñado</h2>
+      <ul>
+        <li>🔍 Navegación intuitiva</li>
+        <li>⚡ Carga rápida y eficiencia</li>
+        <li>💖 Satisfacción del usuario</li>
+        <li>🎯 Conversión y fidelidad</li>
+      </ul>
     </section>
 
-    <section id="testimonios">
-        <h2>Testimonios</h2>
-        <p>"Gracias al diseño visual, nuestra marca ha logrado un impacto increíble." - Cliente feliz</p>
+    <section id="gallery" class="gallery-section fade-in">
+      <h2>Inspiración Visual</h2>
+      <div class="gallery">
+        <img src="assets/images/design1.jpg" alt="Diseño 1">
+        <img src="assets/images/design2.jpg" alt="Diseño 2">
+        <img src="assets/images/design3.jpg" alt="Diseño 3">
+      </div>
     </section>
 
-    <section id="contacto">
-        <h2>Contacto</h2>
-        <form>
-            <label for="nombre">Nombre:</label>
-            <input type="text" id="nombre" name="nombre" required>
-            <label for="email">Email:</label>
-            <input type="email" id="email" name="email" required>
-            <button type="submit">Enviar</button>
-        </form>
+    <section id="contact" class="fade-in">
+      <h2>Contáctame</h2>
+      <p>¿Tienes una idea creativa? <a href="mailto:uxmagic@correo.com">Escríbeme</a> y hagámosla realidad.</p>
     </section>
 
-    <script src="js/script.js"></script>
+    <footer>
+      <p>© 2025 UXMagic - Diseño con propósito</p>
+    </footer>
+  </div>
+
+  <script src="js/script.js"></script>
 </body>
 </html>
-
